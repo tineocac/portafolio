@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
 
 :root {
-
   /* ===== main theme colors ===== */
   --fisr-color: #0e2431;
   --second-color: #81ecec;
@@ -14,9 +13,9 @@
   --body-bg-color: #fefefe;
   --cards-bg-color: #ffffff;
   --modal-bg-color: #ffffff;
-  --bg-transparent-color: rgba(0, 0, 0, .1);
-  --transparent-color-1: rgba(0, 0, 0, .1);
-  --transparent-color-2: rgba(2, 243, 244, .1);
+  --bg-transparent-color: rgba(0, 0, 0, 0.1);
+  --transparent-color-1: rgba(0, 0, 0, 0.1);
+  --transparent-color-2: rgba(2, 243, 244, 0.1);
   --line-color: #d7d7d7;
 
   /* ====== color filter ===== */
@@ -39,9 +38,49 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font: "Press Start 2P", cursive;
+  font-family: "Press Start 2P", cursive;
 }
 
 html {
   scroll-behavior: smooth;
+}
+
+body {
+  color: var(--fisr-color);
+  background: var(--body-bg-color);
+  margin: 2rem 0 0 0;
+  transition: 0.5s ease;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+/* ===== header ===== */
+
+header {
+  z-index: 99999;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  backdrop-filter: blur(20px);
+  transition: 0.6s ease;
+}
+
+.nav-bar {
+  position: relative;
+  height: calc(4rem + 1rem);
+  max-width: 1250px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 20px;
+  transition: 0.6s ease;
 }
