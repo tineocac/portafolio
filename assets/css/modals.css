@@ -1,0 +1,63 @@
+.cv {
+  cursor: default;
+}
+
+.certificates-modal,
+.cv-modal,
+.portfolio-model {
+  z-index: 999999;
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background: var(--bg-transparent-color);
+  backdrop-filter: blur(10px);
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.3s ease;
+}
+
+.cv-modal {
+  z-index: 0;
+}
+
+.certificates-modal.active,
+.cv-modal.active1,
+.portfolio-model.active {
+  visibility: visible;
+  opacity: 1;
+}
+
+.certicates-modal-body,
+.cv-modal-body,
+.portfolio-model-body {
+  position: relative;
+  background: var(--modal-bg-color);
+  max-width: 600px;
+  margin: 20px;
+  padding: 40px;
+  box-shadow: var(--box-shadow);
+  transform: translateY(-50px);
+  transition: 0.5s ease;
+}
+
+.certificates-modal.active .certicates-modal-body,
+.cv-modal.active1 .cv-modal-body,
+.portfolio-model.active .portfolio-model-body {
+  transform: translateY(0);
+}
+
+.cv-modal.active1 .cv-modal-body .cv {
+  cursor: pointer;
+}
+
+.certicates-modal-body .modal-close-btn,
+.cv-modal-body .modal-close-btn,
+.portfolio-model-body .portfolio-close-btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 20px;
+  cursor: pointer;
+}
