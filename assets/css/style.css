@@ -427,7 +427,7 @@ header.sticky .nav-bar {
 
 .skills-description {
   max-width: 700px;
-  margin-bottom: 50px;
+  margin-bottom: 25px;
 }
 
 .skills-description h3 {
@@ -524,19 +524,31 @@ header.sticky .nav-bar {
 }
 
 .bar .html::before {
-  width: 95%;
-}
-.bar .css::before {
   width: 85%;
 }
-.bar .javascript::before {
+.bar .css::before {
   width: 80%;
 }
+.bar .javascript::before {
+  width: 70%;
+}
 .bar .react::before {
-  width: 80%;
+  width: 75%;
 }
 .bar .bootstrap::before {
   width: 80%;
+}
+.bar .redux::before {
+  width: 75%;
+}
+.bar .router::before {
+  width: 75%;
+}
+.bar .git::before {
+  width: 85%;
+}
+.bar .github::before {
+  width: 88%;
 }
 
 .experience-card {
