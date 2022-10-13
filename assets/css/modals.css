@@ -19,7 +19,7 @@
 }
 
 .cv-modal {
-  z-index: 0;
+  z-index: 100;
 }
 
 .certificates-modal.active,
@@ -40,6 +40,15 @@
   box-shadow: var(--box-shadow);
   transform: translateY(-50px);
   transition: 0.5s ease;
+}
+
+.portfolio-model-body a img {
+  transition: 0.3s ease;
+}
+
+.portfolio-model-body a img:hover {
+  transform: scale(1.05);
+  transition: 0.3s ease;
 }
 
 .certificates-modal.active .certicates-modal-body,
