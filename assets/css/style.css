@@ -617,8 +617,12 @@ header.sticky .nav-bar {
   transition: 0.3s ease;
 }
 
+.cv-modal{
+  z-index: 0;
+}
+
 .certificates-modal.active,
-.cv-modal.active,
+.cv-modal.active1,
 .portfolio-model.active {
   visibility: visible;
   opacity: 1;
@@ -638,12 +642,12 @@ header.sticky .nav-bar {
 }
 
 .certificates-modal.active .certicates-modal-body,
-.cv-modal.active .cv-modal-body,
+.cv-modal.active1 .cv-modal-body,
 .portfolio-model.active .portfolio-model-body {
   transform: translateY(0);
 }
 
-.cv-modal.active .cv-modal-body .cv{
+.cv-modal.active1 .cv-modal-body .cv{
   cursor: pointer;
 }
 

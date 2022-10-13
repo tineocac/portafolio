@@ -34,7 +34,7 @@ const downloadCvs = document.querySelectorAll(".download");
 const cvModals = document.querySelectorAll(".cv-modal");
 
 var modalCv = function (modalclick) {
-  cvModals[modalclick].classList.add("active");
+  cvModals[modalclick].classList.add("active1");
 };
 
 downloadCvs.forEach((downloadCvs, i) => {
@@ -46,7 +46,7 @@ downloadCvs.forEach((downloadCvs, i) => {
 modalCloseBtns.forEach((modalCloseBtns) => {
   modalCloseBtns.addEventListener("click", () => {
     cvModals.forEach((modalView) => {
-      modalView.classList.remove("active");
+      modalView.classList.remove("active1");
     });
   });
 });
