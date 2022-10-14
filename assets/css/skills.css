@@ -100,34 +100,6 @@
   left: 0;
 }
 
-.bar .html::before {
-  width: 85%;
-}
-.bar .css::before {
-  width: 80%;
-}
-.bar .javascript::before {
-  width: 70%;
-}
-.bar .react::before {
-  width: 75%;
-}
-.bar .bootstrap::before {
-  width: 80%;
-}
-.bar .redux::before {
-  width: 75%;
-}
-.bar .router::before {
-  width: 75%;
-}
-.bar .git::before {
-  width: 85%;
-}
-.bar .github::before {
-  width: 88%;
-}
-
 .experience-card {
   background: var(--cards-bg-color);
   border-bottom: 3px solid var(--second-color);
