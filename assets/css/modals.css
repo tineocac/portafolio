@@ -1,5 +1,10 @@
 .cv {
-  cursor: default;
+  background: var(--second-color);
+  color: #fff;
+  font-size: var(--normal-font-size);
+  font-weight: 500;
+  padding: 20px;
+  letter-spacing: 1px;
 }
 
 .certificates-modal,
@@ -18,9 +23,9 @@
   transition: 0.3s ease;
 }
 
-.cv-modal {
+/* .cv-modal {
   z-index: 100;
-}
+} */
 
 .certificates-modal.active,
 .cv-modal.active1,

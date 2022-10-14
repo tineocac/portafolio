@@ -52,15 +52,6 @@
   width: 100%;
 }
 
-.contact-form .second-row {
-  display: flex;
-  justify-content: space-between;
-}
-
-.contact-form .second-row input {
-  width: 48%;
-}
-
 .contact-form .btn {
   border: none;
   margin-top: 0;
