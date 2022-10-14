@@ -10,7 +10,7 @@
       rel="stylesheet"
       href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
     />
-    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- <script src="https://unpkg.com/scrollreveal"></script> -->
   </head>
   <body>
     <!-- ===== scroll to top button ===== -->
@@ -541,20 +541,24 @@
             </ul>
           </div>
           <div class="contact-right">
-            <form action="" class="contact-form">
+            <form action="https://formsubmit.co/carlostineocac@gmail.com" class="contact-form" method="post" >
               <div class="first-row">
-                <input type="text" placeholder="Nombre" />
+                <label for="nombre"></label>
+                <input type="text" name="nombre"   placeholder="Nombre" required/>
               </div>
               <div class="second-row">
-                <input type="email" placeholder="Correo" />
-                <input type="text" placeholder="Asunto" />
+                <label for="email"></label>
+                <input type="email" name="email" placeholder="Correo" required/>
+                <label for="asunto"></label>
+                <input type="text" name="asunto" placeholder="Asunto" required/>
               </div>
               <div class="thir-row">
-                <textarea
-                  name="message"
+                <textarea 
+                  name="mensaje"
                   id=""
                   rows="7"
                   placeholder="Mensaje"
+                  required
                 ></textarea>
               </div>
               <button class="btn" type="submit">
