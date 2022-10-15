@@ -74,6 +74,7 @@
 .scrollToTop-btn:hover{
   transform: scale(1.1);
   transition: .5s ease;
+  background:rgba(250, 64, 190, 1) ;
 }
 
 .scrollToTop-btn.active {
@@ -106,6 +107,10 @@
   display: block;
 }
 
+.theme-btn:hover{
+  background: linear-gradient( var(--transparent-color-1), rgba(250, 64, 190, 1));
+}
+
 /* ===== scroll bar ====== */
 
 ::-webkit-scrollbar {
@@ -114,7 +119,7 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background: var(--scroll-thumb-color);
+  background: linear-gradient( transparent, rgba(250, 64, 190, 1));
 }
 
 ::-webkit-scrollbar-thumb:hover {

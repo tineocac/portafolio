@@ -51,7 +51,7 @@ header.sticky .nav-bar {
 }
 
 .nav-items a:hover {
-  color: var(--second-color);
+  color: rgba(250, 64, 190, 1);
 }
 
 .nav-menu-btn {

@@ -1,3 +1,22 @@
+.footer-container .about a h2 {
+  font-family: "Press Start 2P", cursive;
+  filter: drop-shadow(3px 0 rgba(250, 64, 190, 1))
+    drop-shadow(0 2px 0 rgba(2, 243, 244, 1));
+}
+
+.footer-container .about a h2:hover {
+  background: linear-gradient(
+    to top,
+    transparent 0%,
+    rgba(250, 64, 190, 1) 50%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  opacity: 0.8;
+  filter: drop-shadow(3px 0 rgba(250, 64, 190, 1))
+    drop-shadow(0 2px 0 rgba(250, 64, 190, 1));
+}
+
 footer {
   display: flex;
   justify-content: center;
@@ -17,9 +36,9 @@ footer a {
 }
 
 footer a:hover {
-  color: var(--third-color);
+  color: rgba(250, 64, 190, 1);
 
-  /* transition: .3s ease; */
+  transition: 0.3s ease;
 }
 
 footer a:hover {

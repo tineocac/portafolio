@@ -10,6 +10,8 @@
 .about-img img {
   max-width: 100%;
   min-width: 500px;
+  filter: drop-shadow(10px 20px 10px rgba(250, 64, 190, 1))
+    drop-shadow(5px 1px 10px rgba(2, 243, 244, 1));
 }
 
 .about-info .description {
