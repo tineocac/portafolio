@@ -166,15 +166,6 @@
     display: grid;
   }
 
-  .home-container .home-img {
-    position: absolute;
-  }
-
-  .home-container .home-img img {
-    width: 40%;
-    transform: translate(200px, -110px);
-  }
-
   .home .home-container .info {
     font-size: 0.8rem;
   }

@@ -1,9 +1,3 @@
-.img-container-modal{
-  display: flex;
-  text-align: center;
-  justify-content: center;
-}
-
 .portfolio .container .content {
   width: 100%;
 }
@@ -65,13 +59,4 @@
 .portfolio-list .img-card img {
   width: 100%;
   height: 100%;
-}
-
-.portfolio-model-body h3 {
-  font-size: 1.5em;
-}
-
-.portfolio-model-body img {
-  width: 100%;
-  margin: 20px;
 }
