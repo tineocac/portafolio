@@ -23,10 +23,6 @@
   transition: 0.3s ease;
 }
 
-/* .cv-modal {
-  z-index: 100;
-} */
-
 .certificates-modal.active,
 .cv-modal.active1,
 .portfolio-model.active {
