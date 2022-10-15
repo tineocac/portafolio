@@ -31,6 +31,7 @@
 
 .home-container .media-icons a:hover {
   color: var(--hover-color);
+  transform: scale(1.2);
 }
 
 .home-container .info h2 {
@@ -77,8 +78,9 @@
 
 .home .scroll-down i {
   color: var(--second-color);
-  font-size: 1.2em;
+  font-size: 2em;
   animation: arrow-down ease 1s infinite;
+  margin: .5em;
 }
 
 @keyframes arrow-down {

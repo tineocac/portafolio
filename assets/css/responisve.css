@@ -58,7 +58,7 @@
   }
 
   .nav-menu-btn {
-    background: url(../images/categorias.png) no-repeat;
+    background: url(../images/menu.png) no-repeat;
     background-size: 30px;
     background-position: center;
     width: 40px;
@@ -171,8 +171,8 @@
   }
 
   .home-container .home-img img {
-    width: 45%;
-    transform: translate(200px, -100px);
+    width: 40%;
+    transform: translate(200px, -110px);
   }
 
   .home .home-container .info {

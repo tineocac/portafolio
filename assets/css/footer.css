@@ -7,11 +7,23 @@ footer {
   width: 100%;
   margin-top: 50px;
   padding: 3rem 2rem;
-  color: #fff;
+  color: var(--first-color);
 }
 
 footer a {
-  color: #fff;
+  color: var(--first-color);
+  margin: 0;
+  display: inline-block;
+}
+
+footer a:hover {
+  color: var(--third-color);
+
+  /* transition: .3s ease; */
+}
+
+footer a:hover {
+  transform: scale(1.2);
 }
 
 .footer-container {
@@ -24,7 +36,7 @@ footer a {
 .footer-container .about h2 {
   font-size: 3em;
   font-weight: 600;
-  background: linear-gradient(to top, transparent 0%, #fff 50%);
+  background: linear-gradient(to top, transparent 0%, var(--first-color) 50%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   opacity: 0.8;

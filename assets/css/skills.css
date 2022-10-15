@@ -14,6 +14,7 @@
 
 .skills-info {
   max-width: 100%;
+
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 20px;
@@ -29,7 +30,7 @@
   flex-direction: column;
   width: fit-content;
   background: var(--second-color);
-  color: #fff;
+  color: var(--first-color);
   font-size: var(--normal-font-size);
   font-weight: 400;
   padding: 5px 15px;
@@ -135,15 +136,22 @@
   margin: 10px 0 22px;
 }
 
+/* .experience-card:hover{
+  color: aqua;
+  background: #000;
+  transform: scale(1.1);
+} */
+
+
+
 .edu-list .item:hover,
-.bar:hover,
-.experience-card:hover {
+.bar:hover {
   transform: scale(1.03);
 }
 
 .certificates {
   cursor: pointer;
-  color: var(--third-color);
+  color: var(--first-color);
 }
 
 .certificates:hover {
@@ -157,5 +165,3 @@
 .certificates:hover i {
   transform: translateX(10px);
 }
-
-
