@@ -1,7 +1,7 @@
 .footer-container .about a h2 {
   font-family: "Press Start 2P", cursive;
-  filter: drop-shadow(3px 0 rgba(250, 64, 190, 1))
-    drop-shadow(0 2px 0 rgba(2, 243, 244, 1));
+  filter: drop-shadow(3px 0 #fa40be)
+    drop-shadow(0 2px 0 #02f3f4);
 }
 
 .footer-container .about a h2:hover {
